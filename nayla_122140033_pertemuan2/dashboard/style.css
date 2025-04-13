@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    background: #f9f6fb;
+    color: #333;
+    margin: 0;
+    padding: 1em;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 2em;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(200, 150, 200, 0.2);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #a78bfa;
+  }
+  
+  form input, form select, form button {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  form button {
+    background-color: #f9a8d4;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .item {
+    background-color: #dbeafe;
+    margin: 0.5em 0;
+    padding: 1em;
+    border-radius: 12px;
+  }
+  
+  .item span.category {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #6b21a8;
+  }
+  
+  button.edit, button.delete {
+    margin: 0.2em;
+    background: #a78bfa;
+    border: none;
+    padding: 0.3em 0.6em;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+  }
+  
