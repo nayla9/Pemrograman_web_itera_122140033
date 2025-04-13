@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #fce4ec, #ede7f6, #e3f2fd); /* pink, ungu, biru */
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  text-align: center;
+  color: #7b1fa2; /* ungu tua */
+  margin-bottom: 24px;
+}
+
+.card {
+  background-color: #f8bbd0; /* pink pastel */
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+input, button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+input {
+  flex: 1;
+  background-color: #e3f2fd; /* biru pastel */
+  color: #333;
+}
+
+button {
+  background-color: #ce93d8; /* ungu pastel */
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #ba68c8; /* ungu sedikit lebih gelap */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #e1bee7; /* ungu muda */
+  margin-bottom: 8px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background-color: #f48fb1; /* pink lembut */
+  padding: 6px 10px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+}
+
+li button:hover {
+  background-color: #f06292; /* pink lebih terang */
+}
