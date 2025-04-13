@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to bottom right, #fce4ec, #ede7f6, #e3f2fd); /* pink, ungu, biru */
+  background: linear-gradient(to bottom right, #fce4ec, #ede7f6, #e3f2fd); 
   margin: 0;
   padding: 20px;
   color: #333;
@@ -17,12 +17,12 @@ body {
 
 h1 {
   text-align: center;
-  color: #7b1fa2; /* ungu tua */
+  color: #7b1fa2; 
   margin-bottom: 24px;
 }
 
 .card {
-  background-color: #f8bbd0; /* pink pastel */
+  background-color: #f8bbd0; 
   border-radius: 12px;
   padding: 18px;
   margin-bottom: 24px;
@@ -45,19 +45,19 @@ input, button {
 
 input {
   flex: 1;
-  background-color: #e3f2fd; /* biru pastel */
+  background-color: #e3f2fd; 
   color: #333;
 }
 
 button {
-  background-color: #ce93d8; /* ungu pastel */
+  background-color: #ce93d8; 
   color: white;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 button:hover {
-  background-color: #ba68c8; /* ungu sedikit lebih gelap */
+  background-color: #ba68c8; 
 }
 
 ul {
@@ -66,7 +66,7 @@ ul {
 }
 
 li {
-  background-color: #e1bee7; /* ungu muda */
+  background-color: #e1bee7; 
   margin-bottom: 8px;
   padding: 10px 14px;
   border-radius: 8px;
@@ -76,12 +76,12 @@ li {
 }
 
 li button {
-  background-color: #f48fb1; /* pink lembut */
+  background-color: #f48fb1; 
   padding: 6px 10px;
   font-size: 0.9rem;
   border-radius: 6px;
 }
 
 li button:hover {
-  background-color: #f06292; /* pink lebih terang */
+  background-color: #f06292; 
 }
