@@ -27,7 +27,7 @@ const BookList = ({ searchTerm, filter }) => {
           }}
         >
           {editingBook?.id === book.id ? (
-            // TAMPILAN FORM EDIT
+            // tampilan saat edit list buku
             <div>
               <h3 style={{ color: '#48c0f7' }}>Edit Buku</h3>
               <BookForm
@@ -71,7 +71,7 @@ const BookList = ({ searchTerm, filter }) => {
               </div>
             </div>
           ) : (
-            // TAMPILAN LIST VIEW
+            // tampilan list buku
             <>
               <h3 style={{ color: '#48c0f7' }}>{book.title}</h3>
               <p style={{ color: '#fff' }}>{book.author}</p>
