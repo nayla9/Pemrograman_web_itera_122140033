@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Create Your Activity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎓 Create Your Activity</h1>
+    <form id="item-form">
+      <input type="text" id="title" placeholder="Judul (ex: MBD)" required>
+      <input type="date" id="date" required>
+      <input type="time" id="time" placeholder="Waktu (khusus Jadwal Kuliah)">
+      <select id="category">
+        <option value="Jadwal">Jadwal Kuliah</option>
+        <option value="Tugas">Tugas</option>
+        <option value="Deadline">Deadline Tugas</option>
+      </select>
+      <button type="submit">Tambah</button>
+    </form>
+    <div id="items-container"></div>
+  </div>
+  <script src="script.js" type="module"></script>
+</body>
+</html>
