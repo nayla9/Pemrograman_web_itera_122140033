@@ -1,0 +1,5 @@
+[console_scripts]
+initialize_nayla_122140033_pertemuan6_db = nayla_122140033_pertemuan6.scripts.initialize_db:main
+
+[paste.app_factory]
+main = nayla_122140033_pertemuan6:main

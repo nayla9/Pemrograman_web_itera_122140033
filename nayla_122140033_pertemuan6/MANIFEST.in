@@ -1,0 +1,2 @@
+include *.txt *.ini *.cfg *.rst
+recursive-include nayla_122140033_pertemuan6 *.ico *.png *.css *.gif *.jpg *.pt *.txt *.mak *.mako *.js *.html *.xml *.jinja2
